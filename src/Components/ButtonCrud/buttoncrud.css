@@ -1,0 +1,66 @@
+.button_crud_edit {
+    color: var(--color-text-textos-verdes);
+    border: none;
+    cursor: pointer;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: var(--color-primary-button);
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0.86px 0.86px 10px var(--color-box-shadow);
+}
+
+.button_crud_edit:active {
+    background-color: var(--color-primary-button-hover);
+}
+
+.button_crud_edit:hover {
+    border: 1px solid var(--color-borde-hover-button);
+}
+
+
+/*------------- RESPONSIVE --------------*/
+
+@media screen and (max-width: 1600px) {
+    .button_crud_edit {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .button_crud_edit {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button_crud_edit {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .button_crud_edit {
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .button_crud_edit {
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .button_crud_edit {
+        width: 7vw;
+        height: 7vw;
+    }
+}

@@ -1,0 +1,109 @@
+/*------------- CONTAINER --------------*/
+
+.grid__modal__packcancel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+
+/*------------- ATRIBUTOS COMUNES --------------*/
+
+.atributos__comunes__modal__packcancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------- FIRST PART --------------*/
+
+.texto__pripar__modal__packcancel,
+.texto__pripar__modal__packactivate {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+}
+
+.texto__pripar__modal__packcancel {
+    color: var(--color-texto-alert-modales);
+}
+
+.texto__pripar__modal__packactivate {
+    color: var(--color-primary-letras-dark);
+}
+
+
+/*------------- SECOND PART --------------*/
+
+.texto__secpar__modal__packcancel {
+    color: var(--color-texto-modales);
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    margin-top: .5rem;
+    width: 80%;
+}
+
+
+/*------------- THIRD PART --------------*/
+
+.thirdpar__modal__packcancel {
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .atributos__comunes__modal__packcancel {
+        height: auto;
+        width: 100%;
+    }
+    .texto__pripar__modal__packcancel {
+        width: 90%;
+    }
+    .texto__pripar__modal__packactivate {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .atributos__comunes__modal__packcancel {
+        height: auto;
+        width: 100%;
+    }
+    .texto__pripar__modal__packcancel {
+        width: 90%;
+    }
+    .texto__pripar__modal__packactivate {
+        width: 90%;
+    }
+}
+
+
+/*------------- RESPONSIVE HEIGHT --------------*/
+
+@media screen and (max-height: 600px) {
+    .texto__pripar__modal__packcancel {
+        width: 90%;
+        font-size: 24px;
+    }
+    .texto__secpar__modal__packcancel {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    .texto__pripar__modal__packcancel {
+        width: 100%;
+        font-size: 20px;
+    }
+    .texto__secpar__modal__packcancel {
+        font-size: 14px;
+    }
+}

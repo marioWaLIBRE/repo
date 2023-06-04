@@ -1,0 +1,183 @@
+/*------------- DISPLAY  --------------*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.display_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.display_column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*------------- IMAGEN  --------------*/
+
+.currencies__modal__buypack {
+    margin-left: 0.5vw;
+    width: 25px;
+}
+
+.currencies__modal__texto {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 1.5vw;
+}
+
+
+/*------------- GRIDS --------------*/
+
+.grid_modal_buypackages {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.currencypackage_container {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*------------- INPUTS  --------------*/
+
+.input__newpackage {
+    width: 60%;
+    height: 44px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    background: #176c7710 0% 0% no-repeat padding-box;
+}
+
+
+/*------------- TEXTOS --------------*/
+
+.label__newpackage {
+    color: #00272a;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.label__newpackage_light {
+    font-weight: 400;
+}
+
+.input__newpackage_amount {
+    color: #003d44;
+    font-size: 36px;
+}
+
+
+/*------------- CURRENCIES  --------------*/
+
+.addresspublic_buypackages-container {
+    margin: auto;
+}
+
+.label_addresspublic_buypackages {
+    color: #00272a;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+/*------------- TEXTOS  --------------*/
+
+.label_currency_buypackages,
+.label_nickname_buypackages {
+    color: #00272a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.label_nickname_buypackages {
+    text-align: right;
+}
+
+.newpackage_container {
+    width: 100%;
+    height: auto;
+}
+
+.alert_text_modal_buypackages_container {
+    padding: 1rem;
+}
+
+.alert_text_modal_buypackages {
+    color: var(--color-texto-alert-modales);
+}
+
+
+/* BUTTONS CONTAINER */
+
+.button_modal_buy_packages_container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* PADDING CONTAINER INPUT AND LABEL */
+
+.padding_containers {
+    padding: 5px;
+}
+
+
+/* Opciones nuevo select*/
+
+.campaings_select {
+    display: flex;
+    max-width: 250px;
+    width: 230px;
+    min-width: 160px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    background-color: #176c7710;
+    border-radius: 10px;
+    color: var(--color-secundary-text);
+}
+
+.campaign_select_option {
+    color: gray;
+    background-color: white;
+    padding: 10px;
+}
+
+.campaign_select_option::selection {
+    color: black;
+    background-color: #eaeaea;
+}
+
+.campaign_select_option_light {
+    color: rgba(128, 128, 128, 0.493);
+    background-color: white;
+    padding: 10px;
+}

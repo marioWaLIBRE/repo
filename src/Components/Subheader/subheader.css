@@ -1,0 +1,112 @@
+/*------------- SUBHEADER CONTAINER  --------------*/
+
+.subheader_container {
+	background-color: transparent;
+	display: grid;
+	width: 20vw;
+	height: 10vh;
+	margin: 0 5vw;
+	align-items: center;
+	justify-content: flex-start;
+	grid-template-columns: 4vw 1vw 10vw;
+	gap: 0.5rem;
+	grid-template-rows: auto;
+}
+
+/*------------- DISPLAY --------------*/
+
+.display_format-subheader {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+/*------------- HEADER LOGO  --------------*/
+
+.subheader_logo {
+	width: 5vw;
+	height: 5vw;
+}
+
+/*------------- LINEA SUBHEADER  --------------*/
+
+.line1__subheader {
+	height: 22px;
+	border: 0.25px solid var(--color_divider);
+}
+
+/*------------- NOMBRE DEL HEADER  --------------*/
+
+.color_oscuro,
+.color_claro {
+	font-size: 16px;
+	color: var(--color_header-green);
+}
+
+.color_oscuro {
+	font-weight: 600;
+}
+
+.color_claro {
+	font-weight: 300;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.subheader_container {
+		display: flex;
+		height: 10vh;
+		margin: 0 10vw;
+	}
+	.subheader_logo_container {
+		width: 3vw;
+		height: 3vw;
+	}
+	.line1__subheader,
+	.name_program {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.subheader_container {
+		width: 50vw;
+		grid-template-columns: 9vw 1vw 40vw;
+	}
+	.line1__subheader,
+	.name_program {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+	.line1__subheader,
+	.name_program {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+	.subheader_container {
+		width: 30vw;
+		grid-template-columns: 9vw 1vw 20vw;
+	}
+}
+
+/*------------- RESPONSIVE HEIGHT --------------*/
+
+@media screen and (max-height: 320px) {
+	.subheader_container {
+		display: flex;
+		height: 15vh;
+		margin: 0 10vw;
+	}
+	.subheader_logo_container {
+		width: 3vw;
+		height: 3vw;
+	}
+	.line1__subheader,
+	.name_program {
+		display: none;
+	}
+}

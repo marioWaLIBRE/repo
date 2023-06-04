@@ -1,0 +1,200 @@
+/*------------- DISPLAY --------------*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.display_column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*------------- GRIDS --------------*/
+
+.flex_modal_editwallet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.options_container_EditModal {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*------------- CURRENCIES --------------*/
+
+.addresspublic_editwallet_container {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+.attributes_in_common_edit_wallet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label_addresspublic_editwallet {
+    color: #00272a;
+    font-size: 16px;
+    text-align: left;
+}
+
+.addresspublic_editwallet {
+    width: 35vw;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    background: #176c7710 0% 0% no-repeat padding-box;
+}
+
+.currency_input_editwallet,
+.nickname_input_editwallet,
+.input_token_editwallet {
+    width: 17vw;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    background: #176c7710 0% 0% no-repeat padding-box;
+}
+
+
+/*  WALLET ADDRESS */
+
+.wallet_address_edit_container {
+    width: 98%;
+    margin-top: 2rem;
+}
+
+
+/* BUTTONS */
+
+.button_edit_wallet_container {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/*------------- TEXTOS --------------*/
+
+.nickname_input_editwallet,
+.input_token_editwallet {
+    text-align: right;
+    color: #00272a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.label_currency_editwallet,
+.label_nickname_editwallet,
+.label_token_editwallet {
+    color: #00272a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.label_nickname_editwallet {
+    text-align: right;
+}
+
+.input_editwallet_error {
+    color: red;
+    font-size: 15px;
+}
+
+
+/* 
+/* Estilos currenciesHidden para realziar validación del formato de la walletAddress */
+
+
+/*---------------- PROHIBIDO BORRAR) -----------------*/
+
+.currenciesHiddenInput {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+.currenciesHiddenInput:focus {
+    outline: none;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (max-width: 1199px) {
+    .input_nickname_wallet {
+        width: 100vw;
+    }
+    .addresspublic_editwallet {
+        width: 50vw;
+        height: 5vh;
+    }
+    .label_currency_editwallet,
+    .label_nickname_editwallet,
+    .label_token_editwallet {
+        color: #00272a;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .input_address_wallet_p {
+        font-size: 15px;
+    }
+    .nickname_input_editwallet,
+    .input_token_editwallet {
+        margin-left: 0;
+        width: 50vw;
+        border-radius: 10px;
+    }
+    .label_addresspublic_editwallet {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .input_editwallet_error {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .options_container_EditModal {
+        width: 70%;
+    }
+    .addresspublic_editwallet_container {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .options_container_EditModal {
+        width: 100%;
+    }
+    .addresspublic_editwallet_container {
+        margin-top: 0.5rem;
+    }
+}

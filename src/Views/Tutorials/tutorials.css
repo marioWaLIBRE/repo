@@ -1,0 +1,35 @@
+/*------------- DISPLAYS  --------------*/
+.display_center_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.display_center_left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.buttonBack_zIndex {
+	z-index: 999;
+}
+
+/*------------- CONTENIDOS  --------------*/
+.tutorials_public_container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vh 90vh;
+	background-image: url("../../../public/Assets/Images/Wallpaper.svg");
+	background-size: cover;
+}
+.tutorials_public_button {
+	height: 10vh;
+	margin-left: 2vw;
+}
+.tutorials_public_list {
+	height: 80vh;
+}
+
+.tutorials_title {
+	color: #6aa6c4;
+}

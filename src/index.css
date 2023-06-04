@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap");
+:root {
+	--color-primary-letras-light: #9dd1ef;
+	--color-primary-letras-dark: #6aa6c4;
+	--color-border-sidebar: #90d7ed;
+	--color-secunday-letras: #999999;
+	--color-secundary-text: #474747;
+	--color-secundary-text-dark: #00272a;
+	--color-texto-generico: #777777;
+	--color-primary-button: #f4e478;
+	--color-primary-button-hover: #f0e8b5;
+	--color-borde-hover-button: hsl(76, 98%, 20%);
+	--color-linea-light: #b0e0e6;
+	--color-gradiente: linear-gradient(90deg, #f0f0f0, #ffffff00);
+	--color-gradiente2: linear-gradient(10deg, #f0f0f0, #ffffff00);
+	--color-gradiente-botones: linear-gradient(90deg, #9ed3f158, #ffffff00);
+	--color-bg-expandable: #9ed3f158;
+	--color-bg-container: #e0dede9f;
+	--color-texto-select: #003d44;
+	--color-texto-error404: #76b59db8;
+	--color-reactivate--button: #3bc18c;
+	--color-tablas-state-act: #64c491;
+	--color-tablas-state-pen: #e08645;
+	--color-tablas-state-can: #db5f5f;
+	--color-texto-modales: #003d44;
+	--color-texto-titulos-modales: #6aa6c4;
+	--color-texto-alert-modales: #db5f5f;
+	--color_about-title: #9dd1ef;
+	--color_about-text: #1c1a1a;
+	--color_hero-datas: #8ed5eb;
+	--color_hero_verdes-buttons: #234432;
+	--color_hero_verdes-title: #76b59c;
+	--color_navbaritem-hover: #6b716e9e;
+	--color_divider: #0c262b;
+	--color_dark-opc: #000000e6;
+	--color_dark-opc1: #0000005d;
+	--color_dark-opc2: #0000001a;
+	--color_numbers-container: #eaf6fc;
+	--color_white-container: #fff;
+	--color_white-container2: #ddd;
+	--color_white-container3: #ffffffe6;
+	--color_white-container_old: #ffffff80;
+	--color-border-label: #6aa6c4;
+	--color-texto-label: #00272a;
+	--color-text-textos-verdes: #003d44;
+	--color-border-modales: #d4ecf9;
+	--color-border-sidebar: #90d7ed;
+	--color-interior-modales: #edf9ff;
+	--color-box-shadow: #0000001a;
+	--color-box-shadow2: #9393934d;
+	--color-box-shadow3: #0000004d;
+	--color--testimony-dark: #212121;
+	--color-footer-light: #3a4242;
+	--color-footer-dark: #222b2b;
+	--color-footer-text: #6a7575;
+	--color-footer-titulos: #ffffff80;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* SCROLL STYLES */
+
+/* Works on Firefox */
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-primary-letras-dark) transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+/* tamaño del scroll  */
+
+*::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+/* Fondo del scroll */
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Indicador del scroll  */
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-primary-letras-dark);
+	border-radius: 20px;
+}

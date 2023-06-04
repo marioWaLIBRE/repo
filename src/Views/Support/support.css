@@ -1,0 +1,131 @@
+/* CONTENEDOR TOTAL */
+.support_view_container {
+	width: 100vw;
+	height: 100vh;
+	/* height: auto; */
+	background-image: url("../../../public/Assets/Images/Wallpaper.svg");
+	background-size: cover;
+	overflow: scroll;
+}
+
+/* CONTENENDOR DEL BACK BUTTON */
+.support_view_button {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	/* background-color: yellowgreen; */
+	height: auto;
+	padding: 3rem;
+}
+
+/* CONTENEDOR DEL FORMULARIO */
+.support_view_form_container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.support_view_form_inputs_container {
+	width: 65%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.5rem;
+	border: 0.2rem solid var(--color-primary-letras-dark);
+	background-color: white;
+}
+
+.divs_support_view_input_select {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.divs_support_view_input {
+	padding: 1rem;
+}
+
+.divs_support_view_input_description {
+	width: 95%;
+	height: 50vh;
+	padding: 1rem;
+	/* background-color: steelblue; */
+	overflow-y: scroll;
+}
+
+.support_input_description {
+	/* background-color: yellowgreen; */
+	border-radius: 10px;
+	width: 100%;
+	height: 90%;
+	/* text-align: justify; */
+	border: 1px solid var(--color-border-label);
+	white-space: break-spaces;
+}
+
+/* INPUT DE ADJUNTAR */
+.divs_support_view_append_label {
+	padding: 0.5rem;
+	font-weight: 500;
+	font-size: 20px;
+	color: var(--color-secundary-text-dark);
+	border: 1.5px solid var(--color-border-label);
+	border-radius: 10px;
+	margin: 0.5rem;
+	background-color: var(--color-interior-modales);
+	cursor: pointer;
+}
+
+.divs_support_view_append_label:hover {
+	background-color: var(--color-primary-button-hover);
+}
+
+.divs_support_view_append {
+	background-color: steelblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+/* CONTAINER DEL BOTON */
+.support_view_button_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-color: cadetblue; */
+	height: auto;
+	padding: 2rem;
+}
+
+/* SELECT */
+.select_category_supportPage {
+	background-color: #9dd1ef96;
+	border: 1px solid var(--color-primary-letras-light);
+	margin: 2rem;
+	padding: 0.5em;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.divs_support_view_input_alert {
+	text-align: center;
+	margin: 1rem 0;
+	font-size: 12px;
+	text-align: left;
+}
+
+.divs_support_view_input_alert_red {
+	color: var(--color-texto-alert-modales);
+	margin: 1.5rem;
+	font-weight: 700;
+}
+
+/* RESPONSIVE */

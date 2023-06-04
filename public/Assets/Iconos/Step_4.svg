@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.718" height="210.718" viewBox="0 0 210.718 210.718">
+  <g id="Group_12840" data-name="Group 12840" transform="translate(-1055.127 -1706.813)">
+    <circle id="Ellipse_126" data-name="Ellipse 126" cx="74.5" cy="74.5" r="74.5" transform="translate(1055.127 1812.172) rotate(-45)" fill="#c9c9c9" opacity="0.5"/>
+    <ellipse id="Ellipse_127" data-name="Ellipse 127" cx="54.238" cy="54.718" rx="54.238" ry="54.718" transform="translate(1106 1757)" fill="#fff"/>
+    <path id="Path_13558" data-name="Path 13558" d="M1151.067,2903.458l9.419,9.418,9.419-9.418Z" transform="translate(0 -1155.318)" fill="#8e8e8e"/>
+    <g id="Group_12757" data-name="Group 12757" transform="translate(-0.131 -2.609)">
+      <g id="Layer_3" transform="translate(1136.131 1788.609)">
+        <path id="Path_22123" data-name="Path 22123" d="M49.649,3l-13.2,19.073L21.773,7.4,5.634,29.409,2.7,26.474" transform="translate(-2.7 -0.946)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_22124" data-name="Path 22124" d="M16,7.288,24.8,2.3v9.977" transform="translate(23.026 -2.3)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <path id="Path_22125" data-name="Path 22125" d="M36.451,12.728a14.758,14.758,0,0,0-7.923,2.347A14.787,14.787,0,0,0,17.378,9.5a14.378,14.378,0,1,0,0,28.756A14.758,14.758,0,0,0,25.3,35.909a14.787,14.787,0,0,0,11.15,5.575,14.378,14.378,0,0,0,0-28.756Z" transform="translate(1134.011 1800.234)" fill="#fff" stroke="#c6c6c6" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="Ellipse_371" data-name="Ellipse 371" cx="14.378" cy="14.378" r="14.378" transform="translate(1156.084 1812.669)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="1.5"/>
+      <text id="_" data-name="$" transform="translate(1145.221 1829.786)" fill="#c6c6c6" font-size="17" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">$</tspan></text>
+      <text id="_2" data-name="$" transform="translate(1164.333 1832.956)" fill="#8e8e8e" font-size="17" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">$</tspan></text>
+    </g>
+  </g>
+</svg>

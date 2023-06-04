@@ -1,0 +1,22 @@
+.support_cryptoprogram_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 2rem;
+	text-align: right;
+}
+
+.support_cryptoprogram {
+	color: steelblue;
+	font-weight: 500;
+}
+.support_cryptoprogram_link {
+	color: var(--color-texto-alert-modales);
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.support_cryptoprogram_link:hover {
+	color: var(--color-tablas-state-act);
+}

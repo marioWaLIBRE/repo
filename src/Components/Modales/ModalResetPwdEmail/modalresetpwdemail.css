@@ -1,0 +1,48 @@
+/*------------- DISPLAY --------------*/
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.display_texto {
+	display: flex;
+	justify-content: center;
+}
+
+.grid_modal_resetpwdemail {
+	display: grid;
+	margin-top: calc(18.75vh / 2);
+	grid-template-columns: 39vw;
+	grid-template-rows: repeat(3, calc(30vh / 3));
+}
+
+.texto__modal_resetpwdemail {
+	color: #212121;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.grid_modal_resetpwdemail {
+		margin-top: 2vh;
+		grid-template-columns: 70vw;
+		grid-template-rows: repeat(3, calc(45vh / 3));
+	}
+	.texto__modal_resetpwdemail {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+	.grid_modal_resetpwdemail {
+		margin-top: 2vh;
+		grid-template-columns: 80vw;
+		grid-template-rows: repeat(3, calc(45vh / 3));
+	}
+	.texto__modal_resetpwdemail {
+		font-size: 14px;
+	}
+}

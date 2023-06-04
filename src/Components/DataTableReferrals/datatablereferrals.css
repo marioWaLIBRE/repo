@@ -1,0 +1,80 @@
+/*------------- FORMAT HEADERS --------------*/
+
+.table__design__datatable_referrals {
+	width: 55vw;
+	font-family: arial;
+	font-size: 1rem;
+}
+
+.table__design__datatable__thead_referrals {
+	background-color: white;
+	color: var(--color-texto-modales);
+	position: sticky;
+	top: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/*------------- FORMAT BODY --------------*/
+
+.table__design__datatable__tbody__referrals {
+	color: var(--color--testimony-dark);
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.texto__generico__tablabody_referrals {
+	color: #000;
+	padding: 0px 10px;
+}
+
+/*------------- COLORES DE INTERLINEADO --------------*/
+
+.table__design__datatable_referrals tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+.table__design__datatable_referrals tbody tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+/*------------- SCROLL TABLA --------------*/
+
+.table_date_referrals_container {
+	height: 40vh;
+	overflow: scroll;
+}
+
+.table__design__datatable_referrals_hidden {
+	display: none;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (max-width: 1000px) {
+	.table_date_referrals_container {
+		height: 50vh;
+		overflow: scroll;
+	}
+}
+@media screen and (max-width: 500px) {
+	.table_date_referrals_container {
+		height: 60vh;
+		overflow: scroll;
+	}
+}
+
+/*------------- RESPONSIVE HEIGHT --------------*/
+
+@media screen and (max-height: 800px) {
+	.table_date_referrals_container {
+		height: 50vh;
+	}
+}
+@media screen and (max-height: 500px) {
+	.table_date_referrals_container {
+		height: 60vh;
+	}
+}

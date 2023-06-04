@@ -1,0 +1,33 @@
+/*------------- DISPLAY --------------*/
+
+.display_center_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.display_center_left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/*------------- CONTENIDOS  --------------*/
+
+.faqs_public_container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vh 90vh;
+	background-image: url("../../../public/Assets/Images/Wallpaper.svg");
+	background-size: cover;
+}
+.faqs_public_button {
+	height: 10vh;
+	margin-left: 2vw;
+}
+.faqs_public_list {
+	height: 80vh;
+}
+
+.faqs_title {
+	color: #6aa6c4;
+}

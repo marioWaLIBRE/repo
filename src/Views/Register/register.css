@@ -1,0 +1,582 @@
+/*------------- DISPLAY --------------*/
+
+.display {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.display_down {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.display_down_center {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.display_left_center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.display_top_center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*------------ CONTAINER REGISTER -----------*/
+
+.register_container {
+    background-image: url("../../../public/Assets/Images/Wallpaper.svg");
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*------------- SUBHEADER CONTAINER --------------*/
+
+.subheader__container__register {
+    display: grid;
+    width: 80vw;
+    height: 15vh;
+    margin: 0 5vw;
+    grid-template-columns: 5vw 1vw 10vw 1fr;
+    grid-template-rows: 10vh;
+    grid-template-areas: "nav1 nav2 nav3 nav4";
+}
+
+.subheader_register {
+    padding-left: 5vw;
+}
+
+.underlined_yellow {
+    text-decoration: underline 2px solid #f4e478;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.reg_input {
+    max-width: 100vw;
+}
+
+
+/*------------- HEADER LOGO --------------*/
+
+.subheader_logo-container {
+    display: flex;
+    grid-area: nav1;
+}
+
+.subheader_logo {
+    margin: 0 2rem;
+    width: 38px;
+    height: 32px;
+}
+
+
+/*------------- DIVIDER  --------------*/
+
+.line1,
+.line2,
+.line3 {
+    width: 0px;
+    height: 22px;
+    background-color: #0c262b;
+    border: 0.25px solid #0c262b;
+}
+
+.line1 {
+    grid-area: nav2;
+}
+
+
+/*------------- HEADER NAME  --------------*/
+
+.subheader_name-container {
+    grid-area: nav3;
+}
+
+.subheader_name {
+    font-size: 16px;
+}
+
+.color_oscuro {
+    color: rgba(12, 38, 43, 1);
+    font-weight: 700;
+}
+
+.color_claro {
+    color: rgba(12, 38, 43, 0.5);
+    font-weight: 400;
+}
+
+.oculto {
+    display: none;
+}
+
+.subheader_register_title_name_register {
+    width: 80vw;
+    height: 5vh;
+    line-height: 80%;
+    padding-right: 20vw;
+}
+
+.subheader_register_title_name_register h1 {
+    color: #9dd1ef;
+    text-align: center;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+/*------------- BUTTON BACK  --------------*/
+
+.buttonback_register {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+}
+
+
+/*------------- CONTENEDOR FORMULARIO Y BUTTON BACK --------------*/
+
+.buttonBack_register {
+    margin-top: 5vh;
+    height: 5vh;
+}
+
+
+/*---------- FORMULARIO DE REGISTRO -----------*/
+
+.register_form {
+    width: calc(100vw - 35vw);
+    min-height: 40vh;
+    height: auto;
+    border: #7ea0b2;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 20px 1px #7ea0b2;
+    background: transparent linear-gradient( 180deg, #d4ecf9b3 0%, #d4ecf9ae 13%, #d4ecf9a0 28%, #d4ecf989 44%, #d4ecf968 61%, #d4ecf93f 78%, #d4ecf90d 96%, #d4ecf900 100%) 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, calc(65vw / 2));
+    grid-template-rows: auto;
+    grid-template-areas: "form1 form2" "form3 form4" "form5 form6";
+}
+
+
+/*--------- Posicionamiento general del formulario -----------*/
+
+.form1,
+.form2,
+.form6 {
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 6vh 2vh;
+}
+
+.form3,
+.form4 {
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 6vh 4vh;
+}
+
+.form1,
+.form3 {
+    margin-left: 4rem;
+}
+
+.form2,
+.form4,
+.form6 {
+    margin-left: 2rem;
+}
+
+
+/*---------- First name ----------*/
+
+.form1 {
+    margin-top: 40px;
+    grid-area: form1;
+}
+
+
+/*---------- Last name ----------*/
+
+.form2 {
+    margin-top: 40px;
+    grid-area: form2;
+}
+
+
+/*---------- Username ----------*/
+
+.form3 {
+    grid-area: form3;
+}
+
+
+/*---------- Email ----------*/
+
+.form4 {
+    grid-area: form4;
+}
+
+
+/*---------- Passwords ------------*/
+
+.form5 {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 10vw 2vw 12vw;
+    grid-template-rows: 6.5vh 2vh 5vh;
+    grid-template-areas: "pass1 pwd_icon pass2" "pass3 pass3 pass3" "pwd_error pwd_error pwd_error2";
+    grid-area: form5;
+}
+
+.pass1,
+.pass2 {
+    text-align: left;
+    margin-top: -1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pass1 {
+    grid-area: pass1;
+}
+
+.pass2 {
+    grid-area: pass2;
+}
+
+
+/* LABEL DE LOS INPUTS DE CONTRASEÑA */
+
+.pass_label {
+    color: var(--color-texto-label);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0.5vw;
+}
+
+.pass_label-confirm {
+    padding-left: 1rem;
+}
+
+.form5 label {
+    margin-left: 0;
+}
+
+
+/* INPUT DE LAS CONTRASEÑAS */
+
+.pass_reg {
+    margin-left: 0.5vw;
+    width: 11vw;
+    height: 4vh;
+    border: 1px solid #6aa6c4;
+    background-color: var(--color-interior-modales);
+    border-radius: 19px;
+}
+
+
+/* ICONO DE OCULTAR Y MOSTRAR CONTRASEÑA */
+
+.pwd_icon-container {
+    margin-top: 0.5vh;
+    margin-left: -2vw;
+    width: 2vw;
+    height: 3vh;
+    grid-area: pwd_icon;
+}
+
+.pwd_icon-register {
+    width: 25px;
+    height: 25px;
+}
+
+.register_pwd-container {
+    display: flex;
+}
+
+.form5 .pass_p {
+    margin-top: -0.5vh;
+    margin-left: 0.5vw;
+    font-size: 14px;
+    color: #474747;
+    text-align: left;
+    grid-area: pass3;
+}
+
+
+/*---------- Referidos ----------*/
+
+.form6 {
+    margin-top: -6vh;
+    grid-area: form6;
+}
+
+.terms__register {
+    color: #00272a;
+    white-space: nowrap;
+    width: 100vw;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*------------- TERMS AND CONDITIONS  --------------*/
+
+.checkbox_terms {
+    width: 2vw;
+}
+
+.checkbox_terms_input {
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    box-shadow: 1px 1px 4px #000000cc;
+    border: 2px solid #f4e478;
+}
+
+.checkbox_terms_input:checked {
+    background-color: #f4e478;
+}
+
+.agree a {
+    color: #0c262b;
+}
+
+.form_button {
+    width: 220px;
+    height: 68px;
+    background: #f4e478 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/*------------- ERRORS  --------------*/
+
+.p_error-left {
+    text-align: left;
+}
+
+.p_error-right {
+    text-align: right;
+}
+
+.p_error-right2 {
+    margin-right: -1vw;
+    text-align: right;
+}
+
+.p_error {
+    color: #db5f5f;
+    font-size: 16px;
+}
+
+.p_error::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.error__inputs__globales {
+    color: var(--color-tablas-state-can);
+    width: 25vw;
+    font-size: 12px;
+}
+
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .register_container {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .subheader_register_title_name_register {
+        padding-right: 0;
+        align-self: center;
+        margin-top: 1rem;
+    }
+    .register_form {
+        height: auto;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .form1,
+    .form2,
+    .form3,
+    .form4,
+    .form5,
+    .form6 {
+        width: 60%;
+        margin: 0.2rem auto;
+    }
+    .form1 input,
+    .form2 input,
+    .form3 input,
+    .form4 input,
+    .form5 input,
+    .form6 input {
+        min-width: 200px;
+        max-width: 400px;
+    }
+    .form1 {
+        margin-top: 3rem;
+    }
+    .form5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .form5 input,
+    .form5 label {
+        margin: 0;
+        padding: 0;
+    }
+    .form5 .pass2 {
+        margin-top: 1rem;
+    }
+    .pass_reg {
+        width: 100%;
+    }
+    .form6 {
+        margin-bottom: 2rem;
+    }
+    .reg_input {
+        max-width: 400px;
+    }
+    .pwd_icon-register {
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+        /* margin-left: 10rem; */
+    }
+    .buttonback_register {
+        left: 5%;
+        top: 15%;
+    }
+    .terms__button__register {
+        width: 100%;
+    }
+    .terms__register {
+        padding-left: 2rem;
+        white-space: normal;
+        width: 95%;
+        font-size: 1rem;
+    }
+    .terms__register .checkbox_terms input {
+        height: 19px;
+        width: 19px;
+        padding-left: 1rem;
+        margin-right: 1.5rem;
+        /* margin-left: 0 1rem; */
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .register_container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subheader_register_title_name_register {
+        padding-right: 0;
+        align-self: center;
+        padding: 1vh 0;
+    }
+    .register_form {
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .form1,
+    .form2,
+    .form3,
+    .form4,
+    .form5,
+    .form6 {
+        width: 60%;
+        margin: 0.5rem auto;
+    }
+    .form1 input,
+    .form2 input,
+    .form3 input,
+    .form4 input,
+    .form5 input,
+    .form6 input {
+        min-width: 200px;
+        max-width: 400px;
+    }
+    .form1 {
+        margin-top: 3rem;
+    }
+    .form5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .form5 label {
+        margin: 1rem 0 0 0;
+    }
+    .reg_input {
+        min-width: 200px;
+        max-width: 400px;
+    }
+    .pass_reg {
+        width: 100%;
+        margin-left: 0;
+    }
+    .form6 {
+        margin-bottom: 2rem;
+    }
+    .pwd_icon-register {
+        width: 1rem;
+        height: 1rem;
+        margin-right: 2rem;
+    }
+    .buttonback_register {
+        left: 5%;
+        top: 15%;
+    }
+    .terms__button__register {
+        margin-top: 6rem;
+        width: 100%;
+    }
+    .terms__register {
+        padding-left: 2rem;
+        white-space: normal;
+        width: 95%;
+        font-size: 1rem;
+    }
+    .terms__register .checkbox_terms input {
+        height: 19px;
+        width: 19px;
+        padding-left: 1rem;
+        margin-right: 1.5rem;
+    }
+}

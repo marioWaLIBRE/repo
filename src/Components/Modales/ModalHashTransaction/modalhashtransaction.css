@@ -1,0 +1,70 @@
+/* .modalHashTransaction_container {
+	position: relative;
+	background-color: red;
+} */
+
+.transaction_payments_card_packages {
+	width: 30vw;
+	min-height: 10vh;
+	height: auto;
+	margin: 1vh auto;
+	padding: 1vh 1vw;
+	border-radius: 10px;
+	border: 3px solid var(--color-border-modales);
+	background-color: white;
+}
+
+.payments_data_text_packages {
+	color: var(--color-text-textos-verdes);
+	font-weight: 600;
+	font-size: 18px;
+	overflow-wrap: break-word;
+}
+
+.payments_data_text_packages_light {
+	font-weight: 400;
+	overflow-wrap: break-word;
+}
+
+.payments_data_text_packages_link {
+	color: blue;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.payments_data_text_packages_light_link {
+	overflow-wrap: break-word;
+	text-decoration: underline;
+}
+
+.noTransactionsFound {
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+	padding: 5rem 3rem;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--color-texto-select);
+	/* background-color: aqua; */
+}
+
+@media screen and (max-width: 1024px) {
+	.transaction_payments_card_packages {
+		width: 60vw;
+	}
+	.payments_data_text_packages,
+	.payments_data_text_packages_link {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.transaction_payments_card_packages {
+		width: 80vw;
+	}
+	.payments_data_text_packages,
+	.payments_data_text_packages_link {
+		font-size: 13px;
+	}
+}

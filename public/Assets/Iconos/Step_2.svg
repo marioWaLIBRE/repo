@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.718" height="210.718" viewBox="0 0 210.718 210.718">
+  <g id="Group_12839" data-name="Group 12839" transform="translate(-422 -1706.813)">
+    <circle id="Ellipse_131" data-name="Ellipse 131" cx="74.5" cy="74.5" r="74.5" transform="translate(422 1812.172) rotate(-45)" fill="#c9c9c9" opacity="0.5"/>
+    <ellipse id="Ellipse_132" data-name="Ellipse 132" cx="54.238" cy="54.718" rx="54.238" ry="54.718" transform="translate(473.604 1757.453)" fill="#fff"/>
+    <path id="Path_13567" data-name="Path 13567" d="M518.422,2903.458l9.419,9.418,9.419-9.418Z" transform="translate(-0.423 -1155.318)" fill="#8e8e8e"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(506.5 1791.863)">
+      <path id="Path_18755" data-name="Path 18755" d="M2.386,7.182,27.784.766S36.6-2.441,33.678,7.182H2.386Z" transform="translate(1.975 0)" fill="none" stroke="#c6c6c6" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_18756" data-name="Path 18756" d="M5.3,2.91H42.225V34.2H.5V7.708a4.8,4.8,0,0,1,4.8-4.8Z" transform="translate(0 4.272)" fill="none" stroke="#c6c6c6" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect id="Rectangle_659" data-name="Rectangle 659" width="42.116" height="5.216" rx="1" transform="matrix(0.94, 0.343, -0.343, 0.94, 2.789, 8.358)" fill="none" stroke="#c6c6c6" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

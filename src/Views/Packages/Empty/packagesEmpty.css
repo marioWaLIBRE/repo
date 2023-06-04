@@ -1,0 +1,154 @@
+/*------------- ESTILOS PARA LOS PANELES DE CADA TAB  --------------*/
+.display_column_center_center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.panels {
+	background: #fff;
+	box-shadow: 0.86px 0.86px 10px #0000001a;
+	min-height: 200px;
+	width: 80vw;
+	border-radius: 6rem;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+	overflow-y: scroll;
+}
+
+.panel {
+	display: none;
+	animation: fadein 0.8s;
+}
+
+.active_panel-packages {
+	display: block;
+}
+
+.text_panel_title {
+	font-weight: 700;
+	text-align: center;
+	width: 80%;
+	height: 20%;
+	margin-top: 5vh;
+}
+
+.horizontal_divider-packages {
+	margin-top: 3vh;
+	width: 55vw;
+	height: 0px;
+	border: 1px solid #e08645;
+	opacity: 1;
+}
+
+/*------------- CONTAINER DAD  --------------*/
+.container_dad_transactions_empity {
+	width: 100%;
+	height: 80vh;
+}
+
+/*------------- IMAGE  --------------*/
+.package_empty_img {
+	width: 90%;
+	height: 50%;
+}
+
+/*------------- GRID PACKAGES EMPTY  --------------*/
+.package_empty-grid {
+	margin-top: 4vh;
+	display: grid;
+	grid-template-columns: 30vw 20vw;
+	gap: 5rem;
+	z-index: 5;
+}
+
+.dark_text-pakage-empty .light_text-pakage-empty {
+	text-align: left;
+	font-size: 16px;
+}
+
+.dark_text-pakage-empty {
+	color: #003d44;
+	font-weight: 700;
+	text-align: center;
+}
+
+.light_text-pakage-empty {
+	color: #003d44;
+	font-weight: 400;
+}
+
+/* TEXTOS */
+
+.package_light-blue,
+.package_dark-blue {
+	font-size: 30px;
+}
+
+.package_light-blue {
+	color: #8ed5eb;
+}
+
+.package_dark-blue {
+	color: #6aa6c4;
+}
+
+.p_packages-message {
+	margin: 1vh auto 2vh 12vw;
+	text-align: left;
+	color: #6aa6c4;
+	font-size: 18px;
+}
+
+.p_withdrawals_message {
+	text-align: center;
+	width: 80%;
+	height: 20%;
+	color: #003d44;
+	font-weight: 700;
+}
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+@media screen and (max-width: 768px) {
+	.size_empty_img {
+		width: 70%;
+		height: 70%;
+	}
+
+	.package_light-blue,
+	.package_dark-blue {
+		font-size: 20px;
+	}
+
+	.package_empty-grid {
+		display: flex;
+		flex-direction: column;
+		z-index: 5;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.size_empty_img {
+		width: 90%;
+	}
+
+	.package_light-blue,
+	.package_dark-blue {
+		font-size: 20px;
+	}
+}
+
+/*------------- RESPONSIVE HEIGHT  --------------*/
+@media screen and (max-height: 768px) {
+	.size_empty_img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.package_light-blue,
+	.package_dark-blue {
+		font-size: 20px;
+	}
+}

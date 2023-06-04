@@ -1,0 +1,26 @@
+.filter_xls-export {
+	padding: 1vw;
+	height: auto;
+}
+
+.text_export-green {
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	color: #56ad65;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.text_export-green::after {
+	content: url(../../../public/Assets/Iconos/Excel.svg);
+	margin: auto 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+	.filter_xls-export {
+		padding: 3vw;
+	}
+}

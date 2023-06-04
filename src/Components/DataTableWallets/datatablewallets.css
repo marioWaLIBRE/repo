@@ -1,0 +1,167 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_wallets_container {
+    margin-top: 2vh;
+    height: 25vh;
+    overflow: scroll;
+    width: 100%;
+}
+
+.table__design__datatable_wallets {
+    width: 95%;
+    font-family: arial;
+    font-size: 1em;
+}
+
+.dataTableWallets_text_notAvailable {
+    color: red;
+    font-weight: 600;
+}
+
+
+/*------------- HEAD --------------*/
+
+.table__design__datatable__thead_wallets {
+    background-color: white;
+    color: var(--color-texto-modales);
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*------------- BODY --------------*/
+
+.table__design__datatable__tbody {
+    color: var(--color--testimony-dark);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.texto__generico__tablabody_wallets {
+    color: #000;
+    padding: 0px 10px;
+}
+
+
+/*------------- COLORES DE LOS ESTADOS --------------*/
+
+.color__activate {
+    color: var(--color-tablas-state-act);
+    font-weight: 500;
+}
+
+.color__pending {
+    color: var(--color-tablas-state-pen);
+    font-weight: 500;
+}
+
+.color__cancel {
+    color: var(--color-tablas-state-can);
+    font-weight: 500;
+}
+
+
+/*------------- COLORES DEL INTERLINEADO --------------*/
+
+.table__design__datatable_wallets tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.table__design__datatable_wallets tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+
+/*------------- LOGO --------------*/
+
+.logo__currency__packages {
+    width: 25px;
+    height: 35px;
+}
+
+.contenido__logo__crito__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------- BOTON COLOR REACTIVATE --------------*/
+
+.botton__color__nuevo__table {
+    background-color: var(--color-reactivate--button) !important;
+    color: white !important;
+}
+
+
+/*------------- CONFIGURACION BOTONES ULTIMA COLUMNA  --------------*/
+
+.configuration_button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkbox_round_datatablewallet {
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    box-shadow: 1px 1px 4px #000000cc;
+    border: 1px solid darkblue;
+    border-radius: 50%;
+}
+
+.checkbox_round_datatablewallet:checked {
+    background-color: darkblue;
+}
+
+
+/*------------- BOTON INVISIBLE  --------------*/
+
+.button_invisible {
+    background-color: transparent;
+    border: none;
+}
+
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (max-width: 1600px) {
+    .table_wallets_container {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .table_wallets_container {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .table_wallets_container {
+        height: 60vh;
+    }
+}
+
+
+/*------------- RESPONSIVE HEIGHT  --------------*/
+
+@media screen and (max-height: 800px) {
+    .table_wallets_container {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .table_wallets_container {
+        height: 55vh;
+    }
+}

@@ -1,0 +1,47 @@
+.display_left {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.daterange_picker_style {
+	width: 20vw;
+	border: none;
+	color: #003d44;
+	font-weight: 700;
+}
+
+/*  NOTE: the order of these styles DO matter */
+/* ESTILOS PROPIOS DEL DATEPICKER PARA EL DISEÑO */
+/* Colocar borde verde solo en la aprte inferior */
+.DateRangePickerInput__withBorder {
+	border: none;
+	border-bottom: 1px solid #003d44;
+}
+
+/*------------- COLOR Y TAMAÑO A LAS FECHAS --------------*/
+.DateInput_input {
+	font-weight: 400;
+	font-size: 18px;
+	color: #003d44;
+}
+
+/*------------- COLOR FLECHA  --------------*/
+
+.DateRangePickerInput_arrow {
+	color: #003d44;
+}
+.DateRangePickerInput_arrow_svg {
+	fill: #003d44;
+}
+
+/*------------- RESPONSIVE  --------------*/
+
+@media screen and (max-width: 480px) {
+	.daterange_picker_style_container {
+		width: 50vw;
+	}
+	.DateRangePickerInput_arrow {
+		display: none;
+	}
+}

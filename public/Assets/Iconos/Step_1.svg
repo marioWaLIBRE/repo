@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.718" height="210.718" viewBox="0 0 210.718 210.718">
+  <g id="Group_12838" data-name="Group 12838" transform="translate(-100 -1706.813)">
+    <circle id="Ellipse_128" data-name="Ellipse 128" cx="74.5" cy="74.5" r="74.5" transform="translate(100 1812.172) rotate(-45)" fill="#c9c9c9" opacity="0.5"/>
+    <ellipse id="Ellipse_129" data-name="Ellipse 129" cx="54.238" cy="54.718" rx="54.238" ry="54.718" transform="translate(151.276 1757.453)" fill="#fff"/>
+    <path id="Path_13564" data-name="Path 13564" d="M196.1,2903.458l9.419,9.418,9.419-9.418Z" transform="translate(-0.096 -1155.318)" fill="#8e8e8e"/>
+    <g id="Group_12835" data-name="Group 12835">
+      <path id="Path_13566" data-name="Path 13566" d="M230.2,2964.578h-5.188v-5.188h-3.971v5.188h-5.188v3.971h5.188v5.189h3.971v-5.189H230.2Z" transform="translate(-1.016 -1153.863)" fill="#8e8e8e"/>
+      <g id="Icono_User_1" data-name="Icono User 1" transform="translate(-754.507 93.43)">
+        <circle id="Ellipse_152" data-name="Ellipse 152" cx="7.163" cy="7.163" r="7.163" transform="translate(949.924 1698.688)" fill="none" stroke="#c6c6c6" stroke-width="2"/>
+        <path id="Path_17947" data-name="Path 17947" d="M941.423,1727.077a1.9,1.9,0,0,1-1.9-2.1,17.691,17.691,0,0,1,35.132,0,1.9,1.9,0,0,1-1.9,2.1Z" transform="translate(0 9.833)" fill="none" stroke="#c6c6c6" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

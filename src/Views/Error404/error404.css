@@ -1,0 +1,37 @@
+/*  */
+.background__404 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../../../public/Assets/Images/Wallpaper.svg");
+	background-size: cover;
+	background-color: #6aa6c45e;
+}
+
+.tamaño__contenedor__404 {
+	margin-top: 25vh;
+	width: 100%;
+	height: 50vh;
+}
+
+.flex__container__404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.texto__404 {
+	background-color: var(--color-texto-error404);
+	padding: 1vh 2vw;
+	border-radius: 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.texto1__404 {
+	font-weight: 300;
+}
+
+.img__error__404 {
+	width: 48vh;
+}

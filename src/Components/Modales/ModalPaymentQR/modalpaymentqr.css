@@ -1,0 +1,142 @@
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.display_evenly {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.display_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid_modal_paymentqr {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: scroll;
+	height: 100%;
+}
+
+.title_paymentqr {
+	color: #6aa6c4;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.codigoqr_paymentqr-container {
+	width: 150px;
+	height: auto;
+	padding: 1vh auto;
+}
+
+.qr_payment {
+	width: 153px;
+	height: 153px;
+	border: 1px solid var(--color_white-container);
+	box-shadow: 0px 0px 2px var(--color-box-shadow3);
+}
+
+.namecurrency_modal_paymentqr,
+.nicknamewallet_modal_paymentqr {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.namecurrency_modal_paymentqr {
+	color: #808080;
+	text-align: center;
+}
+
+.nicknamewallet_modal_paymentqr {
+	color: #db5f5f;
+	text-align: left;
+}
+
+.date_modal_paymentqr {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 35vw;
+	height: 5vh;
+	background: #176c7715 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	height: auto;
+}
+
+.address_modal_paymentqr {
+	background-color: transparent;
+	border: none;
+	width: 70%;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	margin-right: 1vw;
+	overflow-wrap: break-word;
+}
+
+.button_container_copy {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.button_container_copy:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+.p_modal_paymentqr,
+.p_modal_paymentqr_alert {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.p_modal_paymentqr {
+	color: #212121;
+}
+
+.p_modal_paymentqr_alert {
+	text-align: center;
+	color: var(--color-texto-alert-modales);
+}
+
+.p_modal_paymentqr_container {
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+	padding: 1rem;
+	text-align: justify;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+	.title_paymentqr {
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+	}
+	.date_modal_paymentqr {
+		margin-top: 2vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 60vw;
+		height: auto;
+	}
+
+	.address_modal_paymentqr {
+		width: 60%;
+		font-size: 12px;
+		overflow-wrap: break-word;
+	}
+	.p_modal_paymentqr,
+	.p_modal_paymentqr_alert {
+		font-size: 12px;
+		font-weight: 400;
+	}
+}

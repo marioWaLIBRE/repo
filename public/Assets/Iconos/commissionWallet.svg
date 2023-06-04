@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.94" height="45.94" viewBox="0 0 45.94 45.94">
+  <defs>
+    <filter id="Path_13528" x="5.125" y="5.125" width="40.814" height="40.814" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.657" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13529" x="0" y="0" width="40.814" height="40.814" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.657" result="blur-2"/>
+      <feFlood flood-color="#f3feff" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Wallet_referreal" data-name="Wallet referreal" transform="translate(7.97 7.97)">
+    <g id="Group_10792" data-name="Group 10792">
+      <g transform="matrix(1, 0, 0, 1, -7.97, -7.97)" filter="url(#Path_13528)">
+        <path id="Path_13528-2" data-name="Path 13528" d="M373.183,3899a14.571,14.571,0,1,0,20.607-20.607Z" transform="translate(-360.09 -3865.29)" fill="#f4e478"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -7.97, -7.97)" filter="url(#Path_13529)">
+        <path id="Path_13529-2" data-name="Path 13529" d="M372.325,3898.139a14.571,14.571,0,0,1,20.607-20.607Z" transform="translate(-360.09 -3865.29)" fill="#f4e478"/>
+      </g>
+      <circle id="Ellipse_121" data-name="Ellipse 121" cx="14.991" cy="14.991" r="14.991" transform="translate(0.019 0)" fill="#f4e478"/>
+    </g>
+    <g id="Group_10891" data-name="Group 10891" transform="translate(-4782.197 -6357.357)">
+      <path id="Path_18219" data-name="Path 18219" d="M4797.993,6364.357a4.2,4.2,0,1,1-4.2,4.2A4.2,4.2,0,0,1,4797.993,6364.357Z" transform="translate(-0.647 0)" fill="#003d44"/>
+      <path id="Path_18220" data-name="Path 18220" d="M4803.716,6382.516h-12.74a.774.774,0,0,1-.773-.854,7.2,7.2,0,0,1,14.288,0A.775.775,0,0,1,4803.716,6382.516Z" transform="translate(0 -1.972)" fill="#003d44"/>
+    </g>
+  </g>
+</svg>

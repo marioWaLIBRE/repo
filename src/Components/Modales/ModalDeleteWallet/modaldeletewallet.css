@@ -1,0 +1,151 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid_modal_deletewallet {
+    display: grid;
+    margin-top: calc(13.75vh / 2);
+    grid-template-columns: 39vw;
+    grid-template-rows: 5vh repeat(3, calc(30vh / 3));
+    gap: 1vh;
+}
+
+.currency_deletewallet_container {
+    display: grid;
+    grid-template-columns: repeat(2, calc(39vw / 2));
+    grid-template-rows: 5vh;
+    gap: 2vw;
+}
+
+.namecurrency_modal_deletewallet,
+.nicknamewallet_modal_deletewallet {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.namecurrency_modal_deletewallet {
+    color: #808080;
+    text-align: center;
+}
+
+.nicknamewallet_modal_deletewallet {
+    color: #db5f5f;
+    text-align: left;
+}
+
+.date_modal_deletewallet {
+    width: 35vw;
+    height: 5vh;
+    background: #176c7715 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+}
+
+.ordenard__evenly1 {
+    width: 4vw;
+}
+
+.ordenard__evenly2 {
+    width: 31vw;
+}
+
+.address_modal_deletewallet {
+    color: #db5f5f;
+    font-size: 16px;
+    text-align: center;
+}
+
+.p_modal_deletewallet {
+    color: #db5f5f;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.imagen_modal_deletewallet {
+    width: 2vw;
+}
+
+.buttons_container_deleteWallets {
+    padding-bottom: 2rem;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .grid_modal_deletewallet {
+        margin-top: 0;
+        width: 80vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .currency_deletewallet_container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+    .date_modal_deletewallet {
+        width: 70vw;
+        height: auto;
+    }
+    .imagen_modal_deletewallet {
+        padding: 0.2vh 0.2vw;
+        width: 4vw;
+    }
+    .namecurrency_modal_deletewallet,
+    .nicknamewallet_modal_deletewallet,
+    .p_modal_deletewallet {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .address_modal_deletewallet {
+        font-size: 14px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .grid_modal_deletewallet {
+        margin-top: 0;
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .currency_deletewallet_container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+    .date_modal_deletewallet {
+        width: 70vw;
+        height: auto;
+    }
+    .imagen_modal_deletewallet {
+        padding: 0.2vh 0.2vw;
+        width: 4vw;
+    }
+    .namecurrency_modal_deletewallet,
+    .nicknamewallet_modal_deletewallet,
+    .p_modal_deletewallet {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .address_modal_deletewallet {
+        font-size: 10px;
+        overflow-wrap: break-word;
+    }
+}

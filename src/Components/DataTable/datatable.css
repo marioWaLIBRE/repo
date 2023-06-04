@@ -1,0 +1,174 @@
+.headersTable_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headersTable_icon {
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.icon_rotated {
+	transform: rotate(180deg);
+}
+
+.table__design__datatable {
+	font-family: arial;
+	font-size: 16px;
+}
+
+/*------------- SCROLL TABLA --------------*/
+
+.table_date_container {
+	height: 65vh;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+/*------------- HEAD --------------*/
+
+.table__design__datatable__thead {
+	background-color: white;
+	color: var(--color-texto-modales);
+	position: sticky;
+	top: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/*------------- BODY --------------*/
+
+.table__design__datatable__tbody {
+	color: var(--color--testimony-dark);
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.texto__generico__tablabody {
+	padding: 0px 10px;
+}
+
+.header_active_orderby {
+	color: purple;
+}
+
+/*------------- COLORES DE LOS ESTADOS --------------*/
+
+.color__activate {
+	color: var(--color-tablas-state-act);
+	font-weight: 500;
+}
+
+.color__pending {
+	color: var(--color-tablas-state-pen);
+	font-weight: 500;
+}
+
+.color__cancel {
+	color: var(--color-tablas-state-can);
+	font-weight: 500;
+}
+
+/*------------- COLORES INTERLINEADOS --------------*/
+
+.table__design__datatable tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+.table__design__datatable tbody tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+/*------------- LOGO --------------*/
+
+.logo__currency__packages {
+	width: 25px;
+	height: 35px;
+}
+
+.contenido__logo__crito__texto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*------------- BOTON COLOR REACTIVATE --------------*/
+
+.botton__color__nuevo__table {
+	background-color: var(--color-reactivate--button) !important;
+	color: white !important;
+}
+
+.botton__color__peding__table {
+	background-color: var(--color-tablas-state-pen) !important;
+	color: white !important;
+}
+
+.button_reject_packages {
+	background-color: var(--color-texto-alert-modales) !important;
+	color: white !important;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (max-width: 1600px) {
+	.table_date_container {
+		height: 40vh;
+	}
+
+	.table__design__datatable__thead {
+		font-size: 12px;
+	}
+
+	.table__design__datatable__tbody {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.table_date_container {
+		height: 55vh;
+	}
+
+	.table__design__datatable__thead {
+		font-size: 12px;
+	}
+
+	.table__design__datatable__tbody {
+		font-size: 12px;
+	}
+}
+
+/*------------- RESPONSIVE HEIGHT --------------*/
+
+@media screen and (max-height: 800px) {
+	.table_date_container {
+		height: 60vh;
+	}
+
+	.table__design__datatable__thead {
+		font-size: 12px;
+	}
+
+	.table__design__datatable__tbody {
+		font-size: 12px;
+	}
+}
+@media screen and (max-height: 500px) {
+	.table_date_container {
+		height: 70vh;
+	}
+
+	.table__design__datatable__thead {
+		font-size: 12px;
+	}
+
+	.table__design__datatable__tbody {
+		font-size: 12px;
+	}
+}

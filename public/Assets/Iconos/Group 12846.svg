@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.656" height="50.657" viewBox="0 0 50.656 50.657">
+  <defs>
+    <filter id="Path_18478" x="5.126" y="5.126" width="45.53" height="45.531" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.609" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_18479" x="0" y="0" width="45.531" height="45.53" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.609" result="blur-2"/>
+      <feFlood flood-color="#f3feff" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_12846" data-name="Group 12846" transform="translate(-4776.34 -281.483)">
+    <g id="Group_10697" data-name="Group 10697">
+      <g transform="matrix(1, 0, 0, 1, 4776.34, 281.48)" filter="url(#Path_18478)">
+        <path id="Path_18478-2" data-name="Path 18478" d="M4789.294,319.186a17.5,17.5,0,0,0,24.749-24.748Z" transform="translate(-4776.34 -281.48)" fill="#979797"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 4776.34, 281.48)" filter="url(#Path_18479)">
+        <path id="Path_18479-2" data-name="Path 18479" d="M4789.294,319.186a17.5,17.5,0,1,1,24.749-24.748Z" transform="translate(-4776.34 -281.48)" fill="#979797"/>
+      </g>
+      <circle id="Ellipse_325" data-name="Ellipse 325" cx="17.491" cy="17.491" r="17.491" transform="translate(4784.188 289.312)" fill="#979797"/>
+    </g>
+    <g id="Group_12849" data-name="Group 12849" transform="translate(19547.592 -8755.869)">
+      <rect id="Rectangle_713" data-name="Rectangle 713" width="3" height="7" transform="translate(-14755 9063)" fill="#fff"/>
+      <rect id="Rectangle_714" data-name="Rectangle 714" width="3" height="10" transform="translate(-14750 9060)" fill="#fff"/>
+      <rect id="Rectangle_716" data-name="Rectangle 716" width="3" height="10" transform="translate(-14740 9060)" fill="#fff"/>
+      <rect id="Rectangle_715" data-name="Rectangle 715" width="3" height="7" transform="translate(-14745 9063)" fill="#fff"/>
+      <circle id="Ellipse_376" data-name="Ellipse 376" cx="1.5" cy="1.5" r="1.5" transform="translate(-14755 9057)" fill="#fff"/>
+      <circle id="Ellipse_377" data-name="Ellipse 377" cx="1.5" cy="1.5" r="1.5" transform="translate(-14750 9054)" fill="#fff"/>
+      <circle id="Ellipse_379" data-name="Ellipse 379" cx="1.5" cy="1.5" r="1.5" transform="translate(-14740 9054)" fill="#fff"/>
+      <circle id="Ellipse_378" data-name="Ellipse 378" cx="1.5" cy="1.5" r="1.5" transform="translate(-14745 9057)" fill="#fff"/>
+      <line id="Line_134" data-name="Line 134" y1="1.509" x2="3.019" transform="translate(-14752.047 9056.34)" fill="none"/>
+      <line id="Line_135" data-name="Line 135" y1="0.755" x2="3.019" transform="translate(-14747.304 9054.075)" fill="none"/>
+      <path id="Path_22174" data-name="Path 22174" d="M-14632.5,9051.478l5.393-3.146,5.168,3.146,5.2-3.146" transform="translate(-121.057 7.126)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,369 @@
+.dad__invest__container {
+	background-image: linear-gradient(
+		180deg,
+		#e3f5fc 23.96%,
+		rgba(217, 217, 217, 0)
+	);
+	background-repeat: no-repeat;
+}
+
+/* --------------CONTAINER------------------- */
+
+.invest__container {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 18vh 50vh 8vh 18vh;
+	row-gap: 2vh;
+}
+
+/* ---------------TEXTO SUPERIOR--------------- */
+
+.textosuperior {
+	height: 15vh;
+	box-shadow: 0px 12px 12px 0.1px rgba(199, 199, 199, 0.203);
+}
+
+/* .textosuperior__str {
+	display: flex;
+} */
+
+.textosuperior__1 {
+	display: block;
+	margin-left: 5vw;
+}
+
+.title__1 {
+	font-weight: 700;
+	color: var(--color-primary-letras-light);
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: -30px;
+	line-height: 80%;
+}
+
+.title__2 {
+	font-weight: 700;
+	color: var(--color-primary-letras-dark);
+	font-size: 30px;
+	margin-left: 35px;
+}
+
+.subtitulo {
+	color: var(--color-secunday-letras);
+	font-size: 24px;
+	padding: 13px;
+}
+
+.contenido {
+	text-align: justify;
+	color: var(--color-secundary-text);
+	font-size: 12px;
+	padding: 5px 5px 5px 20px;
+	border-left: 2px var(--color-texto-generico) solid;
+}
+
+/* ---------------STEPS--------------- */
+
+.steps {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 50vh;
+	gap: 5px;
+}
+
+.grid__step {
+	margin-top: 3vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 6vh 20vh 5vh 17vh 2vh;
+}
+
+.steps__container {
+	width: 211px;
+	height: 211px;
+}
+
+.edicion {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.subtitle__step__title {
+	color: var(--color-primary-letras-dark);
+	font-size: 26px;
+}
+
+.numero__claro {
+	color: var(--color-primary-letras-light);
+}
+
+.logo__invest {
+	margin-top: 30px;
+	width: 200px;
+	z-index: 5;
+}
+
+.subtitulo__step {
+	text-align: center;
+	margin-top: 20px;
+	color: var(--color-primary-letras-dark);
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.subtexto {
+	margin-top: 10px;
+	width: 200px;
+	color: var(--color-texto-generico);
+	font-size: 15px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.punto {
+	margin-top: 25px;
+	width: 8px;
+	height: 8px;
+	background-color: var(--color-linea-light);
+	border-radius: 50%;
+}
+
+/* ------------------LINEA RECTA------------------- */
+
+.linea__recta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linea__invest {
+	width: 76%;
+	height: 5px;
+	margin: 0.6rem 0px;
+	border-radius: 25px;
+	background-color: var(--color-linea-light);
+}
+
+/* ---------------BUTTON--------------- */
+
+.button {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-right: 2vw;
+}
+
+.button__text {
+	color: var(--color-primary-letras-dark);
+	text-align: center;
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.button__action {
+	padding: 10px;
+	color: #234432;
+	background: var(--color-primary-button);
+	border-radius: 15px;
+	border: solid var(--color-primary-button);
+	font-size: 20px;
+	margin-right: 100px;
+}
+
+.button__action:hover {
+	background-color: var(--color-primary-button-hover);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.punto,
+	.linea__recta {
+		display: none;
+	}
+	.invest__container {
+		height: auto;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.steps {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.subtitle__step__title {
+		margin-top: 5vh;
+		font-size: 20px;
+	}
+
+	.subtitulo__step {
+		margin-top: 5vh;
+		font-size: 15px;
+	}
+
+	.subtexto {
+		margin-top: 5vh;
+		font-size: 12px;
+	}
+
+	.button {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.button .button__text {
+		font-size: 20px;
+	}
+	.button .button__action {
+		margin-left: 25vw;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+	.punto,
+	.linea__recta {
+		display: none;
+	}
+	.invest__container {
+		height: auto;
+
+		grid-template-columns: 1fr;
+		grid-template-rows: 18vh 210vh 0vh 18vh;
+	}
+	.steps {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.button {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.button .button__text {
+		margin-left: 1.5rem;
+		color: var(--color-primary-letras-dark);
+		font-weight: 700;
+		font-size: 26px;
+	}
+	.button .button__action {
+		margin-left: 5rem;
+	}
+}
+
+/* RESPONSIVE HEIGHT */
+@media screen and (min-height: 450px) and (max-height: 700px) {
+	.punto,
+	.linea__recta {
+		display: none;
+	}
+	.invest__container {
+		height: auto;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.steps {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.subtitle__step__title {
+		margin-top: 5vh;
+		font-size: 20px;
+	}
+
+	.subtitulo__step {
+		margin-top: 5vh;
+		font-size: 15px;
+	}
+
+	.subtexto {
+		margin-top: 5vh;
+		font-size: 12px;
+		width: 95%;
+	}
+
+	.button {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.button .button__text {
+		font-size: 20px;
+	}
+	.button .button__action {
+		margin-left: 25vw;
+	}
+
+	.title__1,
+	.title__2 {
+		font-size: 25px;
+	}
+	.title__1 {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-height: 240px) and (max-height: 449px) {
+	.punto,
+	.linea__recta {
+		display: none;
+	}
+	.invest__container {
+		height: auto;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.steps {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.subtitle__step__title {
+		margin-top: 5vh;
+		font-size: 20px;
+	}
+
+	.subtitulo__step {
+		margin-top: 5vh;
+		font-size: 15px;
+	}
+
+	.subtexto {
+		margin-top: 5vh;
+		font-size: 12px;
+		width: 95%;
+	}
+
+	.button {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.button .button__text {
+		font-size: 20px;
+	}
+	.button .button__action {
+		margin-left: 25vw;
+	}
+
+	.title__1,
+	.title__2 {
+		font-size: 25px;
+	}
+
+	.title__1 {
+		margin-top: 12px;
+	}
+}

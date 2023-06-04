@@ -1,0 +1,36 @@
+/*------------- CONTAINER --------------*/
+.grid__modal__reactivate {
+	display: grid;
+	grid-template-columns: 39vw;
+	grid-template-rows: repeat(3, calc(48.75vh / 3));
+}
+
+/*------------- ATRIBUTOS COMUNES --------------*/
+.atributos__comunes__modal__reactivate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*------------- FIRST PART --------------*/
+.texto__pripar__modal__reactivate {
+	color: var(--color-texto-titulos-modales);
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	width: 28vw;
+}
+
+/*------------- SECOND PART --------------*/
+.texto__secpar__modal__reactivate {
+	color: var(--color-texto-modales);
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	width: 24vw;
+}
+
+/*------------- THRID PART --------------*/
+.thirdpar__modal__reactivate {
+	justify-content: space-evenly;
+}

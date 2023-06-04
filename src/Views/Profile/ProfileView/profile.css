@@ -1,0 +1,384 @@
+.display_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------- NOTES  --------------*/
+
+.notes_warnings_wallets_grid {
+    width: 90%;
+}
+
+.conditional_SelectedWallet_alert_container {
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_note {
+    color: red;
+}
+
+.text_note_wallet {
+    color: black;
+    /* padding: 1rem; */
+}
+
+.red_text_profile_warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.red_text_profile_black {
+    font-weight: 500;
+}
+
+
+/*------------- CONTAINERS  --------------*/
+
+.container__grid__profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 3.5vh;
+}
+
+
+/*------------- ATRIBUTOS COMUNES EN CONTAINER  --------------*/
+
+.atributos__comunes__profile {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0.86px 0.86px 10px #0000001a;
+}
+
+
+/*------------- FIN ATRIBUTOS COMUNES EN CONTAINER  --------------*/
+
+.container__info__profile {
+    width: 80vw;
+    height: 22vh;
+    display: grid;
+    grid-template-columns: 15vw 24vw 24vw 14vw;
+    gap: 1vw;
+}
+
+
+/*------------- SUBGRID  --------------*/
+
+.containe__doble__profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.container__pass__profile {
+    margin-right: 0px;
+    width: 39vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container__inve__profile {
+    margin-left: 0px;
+    width: 39vw;
+    height: auto;
+}
+
+
+/*------------- FIN SUBGRID  --------------*/
+
+.container__button__profile {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+
+/*------------- FIN CONTAINERS  --------------*/
+
+
+/*------------- INFO PROFILE  --------------*/
+
+.formato__profile__profile__centerXY {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo__profile {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.img__profile__profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.texto__profile__profile {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.edit__position__textopro__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.position__texto__profile__profile {
+    margin: 1rem;
+}
+
+.edit__button__profile__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------- PASSWORD  --------------*/
+
+.texto1__pass__profile {
+    color: var(--color-texto-label);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.texto2__pass__profile {
+    color: var(--color-texto-label);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/*------------- LINK PARA REFERIR  --------------*/
+
+.texto1__inve__profile {
+    color: var(--color-texto-label);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.texto2__inve__profile {
+    color: var(--color-texto-label);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.texto3__inve__profile {
+    color: var(--color-texto-label);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 70px;
+    word-wrap: break-word;
+}
+
+.small__link__button__profile {
+    margin-top: 35px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1vh;
+}
+
+.small__link__button1__profile {
+    margin-right: 1rem;
+}
+
+.small__link__button2__profile {
+    margin-left: 1rem;
+}
+
+
+/*------------- THE LAST BUTTON  --------------*/
+
+.edit__button__profile {
+    text-align: center;
+}
+
+.edit__text__profile {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.titulo__wallet__profile1 {
+    color: var(--color-primary-letras-light);
+}
+
+.titulo__wallet__profile2 {
+    color: var(--color-primary-letras-dark);
+}
+
+.texto__wallet__profile {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-textos-verdes);
+    margin-bottom: 20px;
+}
+
+
+/*------------- TABLE  --------------*/
+
+.Container_div_datatablets_profile {
+    width: 80vw;
+}
+
+.profile_expandable_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallets_alert_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallets_alert_black {
+    margin-top: 1vh;
+    font-weight: 500;
+    padding: 0 5%;
+    font-size: clamp(15px 20px 20px);
+    color: #000;
+}
+
+.wallets_alert_red {
+    font-weight: 600;
+    color: var(--color-texto-alert-modales);
+}
+
+.walletsSupported_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.walletsSupported_info {
+    width: 100%;
+}
+
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (max-width: 1024px) {
+    .container__info__profile {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, calc(79vw / 2));
+        gap: 1vw;
+    }
+    .containe__doble__profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container__pass__profile {
+        margin-right: auto;
+        width: 80vw;
+        min-height: 10vh;
+        height: auto;
+    }
+    .container__inve__profile {
+        margin-left: auto;
+        width: 80vw;
+        height: auto;
+        min-height: 10vh;
+    }
+    .texto3__inve__profile {
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 4vw;
+    }
+    .container__button__profile {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .small__link__button__profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1vh;
+        margin-right: 0px;
+    }
+    .small__link__button1__profile {
+        margin-right: 0rem;
+    }
+    .small__link__button2__profile {
+        margin-left: 0rem;
+    }
+    .walletsSupported_container {
+        flex-direction: column;
+    }
+}
+
+
+/*------------- RESPONSIVE HEIGHT  --------------*/
+
+@media screen and (max-height: 900px) {
+    .containe__doble__profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container__pass__profile {
+        margin-right: auto;
+        width: 80vw;
+        min-height: 10vh;
+        height: auto;
+    }
+    .container__inve__profile {
+        margin-left: auto;
+        width: 80vw;
+        height: auto;
+        min-height: 10vh;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .container__info__profile {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, calc(79vw / 2));
+        gap: 1vw;
+    }
+}

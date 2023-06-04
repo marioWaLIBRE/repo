@@ -1,0 +1,272 @@
+.colorbackgroud__sidebar {
+    background-color: transparent;
+    position: fixed;
+}
+
+
+/*------------- CONTAINER SIDEBAR  --------------*/
+
+.dad__sidebar__container {
+    background-color: white;
+    width: 13vw;
+    height: 100vh;
+    box-shadow: 0.86px 0.86px 10px var(--color_dark-opc2);
+}
+
+.sidebar__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formato__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+}
+
+
+/*------------- LOGO  --------------*/
+
+.links_navbar--inside {
+    height: 50%;
+}
+
+.logo__sidebar {
+    width: 50px;
+    height: 41px;
+    margin-left: 40px;
+}
+
+
+/*------------- MENU  --------------*/
+
+.links {
+    margin-left: -3.5px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo__items {
+    margin-left: 30px;
+    width: 45px;
+}
+
+.textos {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.text_logout_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text_logout {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-tablas-state-pen);
+}
+
+
+/*------------- LOGOUT  --------------*/
+
+.logout {
+    height: 10%;
+    display: flex;
+    margin-top: 12vh;
+}
+
+
+/*------------- MENÚ CON CLICK  --------------*/
+
+.position,
+.position__logout:hover {
+    background-image: var(--color-gradiente-botones);
+    border-left: 10px solid var(--color-border-sidebar);
+    transition: 0.3s linear;
+    width: 13vw;
+    margin-left: -3.5px;
+}
+
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (max-width: 1450px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textos {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .colorbackgroud__sidebar {
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .dad__sidebar__container {
+        height: auto;
+        width: 100%;
+    }
+    .formato__container {
+        display: none;
+    }
+    .sidebar__container {
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links_navbar--inside {
+        width: 83%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .links .logo__items {
+        width: 40px;
+        margin-left: 0;
+    }
+    .logout {
+        width: 17%;
+        height: 100%;
+        display: flex;
+        margin-top: 0vh;
+    }
+    .position,
+    .position__logout:hover {
+        border-radius: 50%;
+        background-image: transparent;
+        border-left: 0;
+        transition: none;
+        width: 50px;
+        margin-left: 0px;
+    }
+    .text_logout {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .colorbackgroud__sidebar {
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .dad__sidebar__container {
+        height: auto;
+        width: 100%;
+    }
+    .formato__container {
+        display: none;
+    }
+    .sidebar__container {
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links_navbar--inside {
+        width: 83%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .links .logo__items {
+        width: 40px;
+        margin-left: 0;
+    }
+    .logout {
+        width: 17%;
+        height: 100%;
+        display: flex;
+        margin-top: 0vh;
+    }
+    .position,
+    .position__logout:hover {
+        border-radius: 50%;
+        background-image: transparent;
+        border-left: 0;
+        transition: none;
+        width: 40px;
+        margin-left: 0px;
+    }
+}
+
+
+/*------------- RESPONSIVE HEIGHT  --------------*/
+
+@media screen and (max-height: 750px) {
+    .colorbackgroud__sidebar {
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .dad__sidebar__container {
+        height: auto;
+        width: 100%;
+    }
+    .formato__container {
+        display: none;
+    }
+    .sidebar__container {
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links_navbar--inside {
+        width: 83%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .links .logo__items {
+        width: 40px;
+        margin-left: 0;
+    }
+    .logout {
+        width: 17%;
+        height: 100%;
+        display: flex;
+        margin-top: 0vh;
+    }
+    .position,
+    .position__logout:hover {
+        border-radius: 50%;
+        background-image: transparent;
+        border-left: 0;
+        transition: none;
+        width: 50px;
+        margin-left: 0px;
+    }
+    .text_logout {
+        display: none;
+    }
+}

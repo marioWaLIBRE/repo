@@ -1,0 +1,125 @@
+.grid__modal_google {
+    margin-left: 2vw;
+    margin-top: calc(18.75vh / 2);
+    display: grid;
+    grid-template-columns: 35vw;
+    grid-template-rows: repeat(2, 15vh);
+}
+
+.CMG__ubication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__modal__google {
+    color: #6aa6c4;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text__modal__google {
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor__modal__google {
+    width: 260px;
+    height: 40px;
+    border: 1px solid var(--color-primary-letras-dark);
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.imput__modal__google {
+    width: 260px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: var(--color-primary-letras-dark);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+    .grid__modal_google {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .titulo__modal__google {
+        font-weight: 600;
+    }
+    .text__modal__google {
+        width: 70vw;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .contenedor__modal__google,
+    .imput__modal__google {
+        width: 50vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .grid__modal_google {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .titulo__modal__google {
+        font-weight: 600;
+    }
+    .text__modal__google {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .contenedor__modal__google,
+    .imput__modal__google {
+        width: 60vw;
+        height: 5vh;
+    }
+    .titulo__modal__google {
+        font-size: 25px;
+    }
+}
+
+
+/*------------- RESPONSIVE HEIGHT --------------*/
+
+@media screen and (max-height: 480px) {
+    .grid__modal_google {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .titulo__modal__google {
+        font-size: 25px;
+    }
+}

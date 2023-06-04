@@ -1,0 +1,253 @@
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.display_left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.display_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.display_column_align_start {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.display_center_center_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.display_rigth {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.display_none {
+	display: none;
+}
+
+/*------------- PRIMER CONTENEDOR  --------------*/
+
+.text_referrals_profits_container_dad {
+	margin-top: 5vh;
+	background: #fff;
+	box-shadow: 0.86px 0.86px 10px #0000001a;
+	min-height: 200px;
+	width: 80vw;
+	height: auto;
+	border-radius: 6rem;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.table__design__datatable_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.table__design__datatable__th {
+	padding: 0.5rem 1rem;
+}
+
+.panels_profits {
+	margin-top: 5vh;
+}
+
+.text_invite_container {
+	margin-top: 3vh;
+	margin-left: 3.5vw;
+	height: auto;
+}
+
+.text_inviteReferrals_profits,
+.text_inviteReferrals_profits-blue {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.text_inviteReferrals_profits {
+	color: #212121;
+}
+
+.make_new_invest {
+	color: var(--color-primary-letras-dark);
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.text_inviteReferrals_profits-blue {
+	color: var(--color-primary-letras-dark);
+}
+
+.text_totals_blue {
+	color: var(--color-primary-letras-dark);
+	font-size: 16px;
+}
+
+.text_totals_blue_dark {
+	font-weight: 700;
+	text-align: center;
+}
+
+.text_totals_blue_light {
+	font-weight: 400;
+}
+
+.text_totals_black {
+	margin-top: 2vh;
+	color: #000;
+	font-size: 16px;
+}
+
+.text_totals_black_link {
+	color: #000;
+	font-size: 16px;
+}
+
+.text_totals_black_dark {
+	font-weight: 700;
+}
+
+.text_totals_black_light {
+	font-weight: 400;
+}
+
+.text_total_size {
+	font-size: 2rem;
+}
+
+/*------------- LINK REFERIDO  --------------*/
+
+.link_referral_container_bot {
+	margin-top: 0.5vh;
+	border: 1px solid var(--color-primary-letras-light);
+	border-radius: 10px;
+	padding: 0.5vw;
+	width: 70vw;
+	height: auto;
+}
+
+/*------------- TOTALES DE USUARIO  --------------*/
+
+.totals_profits_user {
+	margin-top: 5vh;
+}
+
+/*------------- TOTALES DE USUARIO GRID  --------------*/
+
+.profits_user_totals_grid {
+	width: 60vw;
+	display: grid;
+	grid-template-columns: repeat(3, 20vw);
+	grid-template-rows: auto;
+}
+
+.profits_referrals_user_totals_grid {
+	width: 60vw;
+	display: grid;
+	grid-template-columns: repeat(2, 30vw);
+	grid-template-rows: auto;
+}
+
+/*------------- CIRCULOS  --------------*/
+
+.totals_profits_circle {
+	width: 10rem;
+	height: 10rem;
+	border: 25px solid #b5b4b4c7;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	padding: 3%;
+}
+
+.totals_profits_circle {
+	margin-top: 2vh;
+}
+
+/*------------- BOTONES  --------------*/
+
+.buttons_referrals_container {
+	margin-top: 5vh;
+}
+
+.border_responsive_profits_cero {
+	box-shadow: 0.86px 0.86px 10px var(--color-box-shadow);
+	border-radius: 15px;
+	margin: 0.5vh 0.5vw;
+	width: auto;
+}
+
+.central_container_total_referrals_profits {
+	width: 200%;
+}
+
+.disclaimer_text_packages_bold2 {
+	padding: 1rem;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (max-width: 1024px) {
+	.profits_user_totals_grid,
+	.profits_referrals_user_totals_grid {
+		width: 60vw;
+		display: grid;
+		grid-template-columns: 60vw;
+		grid-template-rows: auto;
+	}
+	.buttons_referrals_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.totals_profits_circle {
+		margin-bottom: 2vh;
+	}
+	.border_responsive_profits_cero {
+		margin-bottom: 2vh;
+		box-shadow: 0.86px 0.86px 10px var(--color-box-shadow);
+		border-radius: 15px;
+	}
+	.text_inviteReferrals_profits,
+	.text_inviteReferrals_profits-blue {
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.text_totals_black_link {
+		font-size: 14px;
+	}
+	.text_totals_black_light {
+		text-align: center;
+	}
+	.central_container_total_referrals_profits {
+		width: 100%;
+	}
+}

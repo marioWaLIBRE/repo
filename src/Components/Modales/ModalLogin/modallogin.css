@@ -1,0 +1,53 @@
+.modalgrid__login {
+    display: grid;
+    grid-template-columns: 39vw;
+    grid-template-rows: 24vh repeat(2, calc(24.5vh / 2));
+}
+
+.modalform__grid__login {
+    display: grid;
+    grid-template-columns: 39vw;
+    grid-template-rows: repeat(2, 12vh);
+}
+
+.modalflex__login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__forget__ml {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.texto__button__forget__ml {
+    color: var(--color-text-textos-verdes);
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline var(--color-primary-button);
+}
+
+.modalbutton_hero {
+    text-align: center;
+    margin: 2vh auto;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+    .modalgrid__login {
+        min-width: 70vw;
+        max-width: 80vw;
+        grid-template-columns: auto;
+    }
+    .modalform__grid__login {
+        grid-template-columns: auto;
+    }
+    .texto__button__forget__ml {
+        font-size: 16px;
+    }
+}

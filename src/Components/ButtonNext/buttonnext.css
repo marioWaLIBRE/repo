@@ -1,0 +1,16 @@
+/* BUTTON BACK */
+
+.button__back {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.button__backimg {
+	border: none;
+	background-color: transparent;
+}
+
+.logo__button__back {
+	width: 70px;
+	cursor: pointer;
+}

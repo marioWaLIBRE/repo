@@ -1,0 +1,223 @@
+/*------------- DISPLAYS --------------*/
+
+.display_right_column {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.display_right_center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.display_center_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.display_end_top {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.display_center_top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.display_column_center_top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.display_column_center_left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.display_spaceEvenly_center_flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.display_center_certer_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.alert_profits_container {
+	padding: 1vw;
+	text-align: right;
+}
+
+.alert_profits {
+	color: var(--color-texto-alert-modales);
+	font-size: 18px;
+}
+
+/*------------- EXPORTACION EXCEL --------------*/
+
+.text_export-green {
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	color: #56ad65;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.text_export-green::after {
+	content: url(../../../../public/Assets/Iconos/Excel.svg);
+}
+
+.title_first_referrals {
+	width: 30%;
+	text-align: right;
+}
+
+.container_selectTable_first_level {
+	height: 100%;
+}
+
+/*------------- SELECT --------------*/
+
+.select_first_referrals {
+	width: 100%;
+}
+
+.select_referrals_tier1 {
+	margin-left: 1em;
+}
+
+/*------------- DATATABLE REFERRALS --------------*/
+
+.position_dataTable_referrals {
+	margin-top: 5.3vh;
+	overflow-y: scroll;
+}
+
+/*------------- TEXTO Y CONTENIDOS --------------*/
+
+.text_down_rightTi_payProfits {
+	margin-right: 1vw;
+	font-size: 20px;
+	color: var(--color-primary-letras-dark);
+	font-weight: 700;
+}
+
+.text_down_rightTe_payProfits {
+	margin-right: 1vw;
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+}
+
+.measures_content_down_profits {
+	width: 10%;
+}
+
+.container_Texto_profits {
+	margin-top: 2vh;
+	width: 100%;
+	height: auto;
+	text-align: right;
+}
+
+.container_change_wallet_proFirtLvL {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/*------------- SHARE LINK --------------*/
+
+.container_text_referrals_profits {
+	margin-top: 2vh;
+	width: 95%;
+}
+
+.text_inviteReferrals_profits,
+.text_inviteReferrals_profits-blue {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.text_inviteReferrals_profits-blue {
+	color: var(--color-primary-letras-dark);
+}
+
+.link_referral_container {
+	margin-top: 0.5vh;
+	border: 1px solid var(--color-primary-letras-light);
+	border-radius: 10px;
+	padding: 0.5vw;
+	width: 100%;
+	height: auto;
+}
+
+.text_totals_black_link {
+	color: #000;
+	font-size: 16px;
+}
+
+.buttons_referrals {
+	height: auto;
+	margin: 1vh;
+}
+
+/*------------- LOGO CURRENCY --------------*/
+
+.logo__currency__profits {
+	width: 35px;
+	height: 35px;
+}
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+/* @media screen and (max-width: 1024px) {
+    .container_currency_proFirtLvL {
+        margin-top: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .measures_content_down_profits {
+        min-width: 20%;
+    }
+} */
+
+@media screen and (max-width: 1024px) {
+	.container_selectTable_first_level {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.title_first_referrals {
+		width: 80%;
+	}
+	.position_dataTable_referrals {
+		width: 95%;
+	}
+	.alert_profits_container {
+		padding: 5vw;
+		text-align: right;
+	}
+	.alert_profits {
+		color: var(--color-texto-alert-modales);
+		font-size: 15px;
+	}
+}

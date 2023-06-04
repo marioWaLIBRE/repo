@@ -1,0 +1,116 @@
+/*------------- CONTAINERS  --------------*/
+
+.dad__container__modal {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color_dark-opc1);
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.open_modal {
+	display: flex;
+}
+
+.container__modal {
+	display: grid;
+	grid-template-columns: 10vw 40vw;
+	grid-template-rows: 15vh 50vh;
+	/* background-color: green; */
+}
+
+/*------------- CONTENIDO MODAL  --------------*/
+
+.confi__titulo_modal {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+/*------------- TITULO  --------------*/
+
+.titulo1__modal {
+	text-align: right;
+	color: white;
+	font-size: 30px;
+}
+
+.titulo2__modal {
+	text-align: right;
+	color: var(--color_white-container);
+	font-size: 26px;
+}
+
+/*------------- CONTENIDO MODAL  --------------*/
+
+.contenido__modal__interior {
+	max-height: 50vh;
+	height: auto;
+	border-radius: 10px;
+	background-color: var(--color-interior-modales);
+	border: 5px solid var(--color-border-modales);
+	overflow-y: scroll;
+}
+
+/*------------- RESPONSIVE WIDTH  --------------*/
+
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+	.container__modal {
+		display: grid;
+		grid-template-columns: 10vw 80vw;
+		grid-template-rows: 15vh 70vh;
+	}
+	.contenido__modal__interior {
+		width: 80vw;
+		height: 100%;
+	}
+	.titulo1__modal {
+		text-align: right;
+		color: white;
+		font-size: 20px;
+	}
+	.titulo2__modal {
+		text-align: right;
+		color: var(--color_white-container);
+		font-size: 20px;
+	}
+	.open_modal {
+		display: flex;
+	}
+}
+
+/*------------- RESPONSIVE HEIGHT  --------------*/
+
+@media screen and (max-width: 480px) {
+	.container__modal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+		min-height: 70vh;
+	}
+	.contenido__modal__interior {
+		padding: 2vh 0;
+		max-width: 90vw;
+		height: 100%;
+	}
+	.titulo1__modal {
+		text-align: right;
+		color: white;
+		font-size: 16px;
+	}
+	.titulo2__modal {
+		text-align: right;
+		color: var(--color_white-container);
+		font-size: 14px;
+	}
+	.open_modal {
+		display: flex;
+	}
+}

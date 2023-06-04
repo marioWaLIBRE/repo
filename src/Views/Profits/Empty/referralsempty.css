@@ -1,0 +1,80 @@
+/*------------- DISPLAYS --------------*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.display_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*------------- TEXTOS --------------*/
+
+.text_profits_container {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    height: 10vh;
+}
+
+.text_profits {
+    margin-top: 5vh;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.text_invite_container {
+    margin-top: 3vh;
+    margin-left: 3.5vw;
+    height: 10vh;
+}
+
+.text_invite_container {
+    margin-top: 3vh;
+    margin-left: 3.5vw;
+    height: 10vh;
+}
+
+.text_referrals_profits {
+    line-height: 1.5;
+}
+
+
+/*------------- IMAGEN --------------*/
+
+.profit_empty-img {
+    margin-top: 2.5vh;
+    width: 100%;
+}
+
+
+/*------------- DIVIDER --------------*/
+
+.horizontal_divider-profits {
+    margin-top: 5vh;
+    width: 70vw;
+    height: 0px;
+    border: 0.5px solid var(--color-primary-letras-light);
+    opacity: 1;
+}
+
+
+/*------------- RESPONSIVE WIDTH --------------*/
+
+@media screen and (max-width: 768px) {
+    .size_image_referrals_empity {
+        width: 90%;
+    }
+}

@@ -27,6 +27,18 @@
     flex-direction: column;
 }
 
+.flex_modal_newwallet--tool-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex_modal_newwallet--tool-login > form {
+    margin: 12.5%;
+    display: block;
+}
+
 .options_container_NewModal {
     width: 50%;
     display: flex;

@@ -58,6 +58,11 @@
 	overflow-y: scroll;
 }
 
+.contenido__modal__interior.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /*------------- RESPONSIVE WIDTH  --------------*/
 
 @media screen and (min-width: 481px) and (max-width: 1199px) {

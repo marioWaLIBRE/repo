@@ -1,4 +1,5 @@
 import ButtonBack from "../../ButtonBack/Buttonback";
+
 import "./Modal.css";
 
 const Modal = ({
@@ -8,6 +9,7 @@ const Modal = ({
 	titulo1,
 	titulo2,
 	backbutton,
+	loading,
 }) => {
 	return (
 		<div className={`dad__container__modal ${open && "open_modal"}`}>
@@ -22,7 +24,17 @@ const Modal = ({
 					<h1 className="titulo2__modal">{titulo2}</h1>
 				</div>
 				<div></div>
-				<div className="contenido__modal__interior">{children}</div>
+				{loading ?
+					<div className="contenido__modal__interior loading">
+						<img
+							src="Assets/Animaciones/Cargando/Loading.gif"
+							alt=""
+							className="gif__precarga"
+						/>
+					</div>
+					:
+					<div className="contenido__modal__interior">{children}</div>
+				}
 			</div>
 		</div>
 	);

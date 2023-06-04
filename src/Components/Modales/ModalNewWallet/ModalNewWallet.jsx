@@ -169,7 +169,7 @@ const ModalNewWallet = ({
 
       {(step === 1) && (
         <>
-          {(wallets > 0) ? (
+          {!(wallets > 0) ? (
             <FirstWalletLegacyModalBody
               close={close}
               optionsList={optionsList}

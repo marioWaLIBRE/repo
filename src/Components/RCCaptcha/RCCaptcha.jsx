@@ -31,7 +31,7 @@ export function RCCaptcha({
         return Promise.reject();
       }}
       tipText={{
-        default: "Drag to the right to complete the puzzle",
+        default: "Drag to the right to confirm",
         loading: "Loading...",
       }}
       bgSize={{

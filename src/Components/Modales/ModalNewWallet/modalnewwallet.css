@@ -17,6 +17,11 @@
     flex-direction: column;
 }
 
+.success_message {
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
 
 /*------------- GRIDS --------------*/
 
@@ -32,6 +37,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.rc-slider-captcha-loading-text {
+    display: none !important;
+  }
+
+.flex_modal_newwallet--tool-steps {
+    height: 100%;
 }
 
 .flex_modal_newwallet--tool-login > form {

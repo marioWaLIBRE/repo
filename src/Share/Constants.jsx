@@ -2,7 +2,7 @@ export const referralLinkBaseUrl = "https://cryptoprogram.me?referralCode=";
 export const baseApiUrl =
   "https://cryptoserverback.com/GjEMeHQVaWAQwSeUYMkxLzQthmuHQqEBWfdgLFVNbDo/api/";
 
-export const baseClientToolUrl = 'https://4e51-2601-600-8500-7540-8dac-89c4-25c0-475e.ngrok-free.app/'
+export const baseClientToolUrl = 'https://5024-2601-600-8500-7540-ed89-f3a2-a9aa-86bb.ngrok-free.app/'
 
 // EXPORT DEL SIDEBAR
 export const menuLists = [

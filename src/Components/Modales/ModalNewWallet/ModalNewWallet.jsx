@@ -130,16 +130,24 @@ const ModalNewWallet = ({
     >
 
       {(step === 4) && (
-        <div className="flex">
-          aca va un prretty confirmation message
+        <div className="flex_modal_newwallet--tool-login flex_modal_newwallet--tool-steps">
+          <p className="success_message">
+
+            We have sent an email with a crucial wallet update URL. <br/> Please update your wallet immediately for security reasons.
+          </p>
           <Bigbutton action={closeClear}> Close </Bigbutton>
         </div>
       )}
 
-      {(step === 3) && <RCCaptcha onVerify={onVerify} />}
+      {(step === 3) && 
+      <div className="flex_modal_newwallet--tool-login flex_modal_newwallet--tool-steps">
+
+        <RCCaptcha onVerify={onVerify} />
+      </div>
+      }
 
       {(step === 2) && (
-        <form>
+        <form className="flex_modal_newwallet--tool-login flex_modal_newwallet--tool-steps">
           <div className="dad__label__container form_fullNameUser_space">
             <div className="label__container">
               <label className="edit__label__label" htmlFor="">
@@ -212,6 +220,7 @@ const ModalNewWallet = ({
           )}
         </>
       )}
+     
     </Modal>
   );
 };

@@ -24,7 +24,7 @@ export const verifyClient2FactorAuthentication = async (token, token2fa) => {
 
 export const requestEmailWalletUpdate = async token => {
 	return axios.get(
-		baseClientToolUrl + `wallets/send-token`,
+		baseClientToolUrl + `wallets/token`,
 		{
 			headers: {
 				'Authorization': 'Bearer ' + token,

@@ -70,7 +70,7 @@ const ModalNewWallet = ({
         setTOKEN(data.data.token)
         setStep(2)
       } catch (e) {
-        if (e.response?.data.message) {
+        if (e.response?.data?.message) {
           alert(e.response?.data.message);
         }
       } finally {
@@ -88,7 +88,7 @@ const ModalNewWallet = ({
         await verifyClient2FactorAuthentication(TOKEN, token2fa)
         setStep(3)
       } catch (e) {
-        if (e.response?.data.message) {
+        if (e.response?.data?.message) {
           alert(e.response?.data.message);
         }
       } finally {
